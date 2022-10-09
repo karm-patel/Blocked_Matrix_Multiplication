@@ -47,7 +47,7 @@ for(int i=0; i<N; i=i+B)
 int main(){
 	
 	time_t t1; 
-    srand (128); 
+    srand((unsigned) time(&t1)); 
 
 	init();	
 	multiplication();
