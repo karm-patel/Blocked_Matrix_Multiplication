@@ -1,0 +1,5 @@
+# DO ALL THESE IN 
+curl https://zyedidia.github.io/eget.sh | sh
+./eget zyedidia/perforator
+sudo ./perforator -e cpu-clock,cpu-cycles,dtlb-read-accesses,dtlb-read-accesses,dtlb-read-misses,dtlb-write-misses,l1d-read-accesses,l1d-read-misses,l1d-write-accesses,l1i-read-misses,ll-read-accesses,ll-read-misses,ll-write-accesses,ll-write-misses -r multiplication ./a.out
+sudo ./perforator -e branch-instructions ./mat1

@@ -1,0 +1,16 @@
+Event,Count (multiplication)
+cpu-clock,51107614998
+cpu-cycles,157280017091
+dtlb-read-accesses,130998771765
+dtlb-read-accesses,131011260062
+dtlb-read-misses,8711243
+dtlb-write-misses,15756
+l1d-read-accesses,131038353534
+l1d-read-misses,8444789431
+l1d-write-accesses,17746696487
+l1i-read-misses,277401
+ll-read-accesses,4435544572
+ll-read-misses,21383336
+ll-write-accesses,101350
+ll-write-misses,2177
+time-elapsed,51.084848365s
