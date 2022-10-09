@@ -1,7 +1,0 @@
-# DO ALL THESE IN KSP directory
-curl https://zyedidia.github.io/eget.sh | sh
-./eget zyedidia/perforator
-
-# RUN FOLLOWING PYTHON FILES IN SEQUENCE
-python3 outgen2048.py # genereate .out files in out2048/
-python3 execout.py # generate csv files in csv/
