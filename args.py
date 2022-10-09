@@ -4,7 +4,7 @@ import sys
 with open("arguments.txt") as fp:
     l = fp.read().split()
 
-command = "sudo perf stat -x , -e"
+command = "sudo perf stat -x , -e "
 for each in l:
     command += f"{each}:u,"
 
