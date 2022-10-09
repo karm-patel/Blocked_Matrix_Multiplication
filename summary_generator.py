@@ -11,7 +11,12 @@ for filename in all_files:
     version, matrix_size, tile_size = filename.split('_')
     version = version.split('/')[-1]
     tile_size = tile_size.split('.')[0]
-    df = pd.read_csv(filename)
+    # print(filename)
+    try:
+        df = pd.read_csv(filename)
+    except:
+        print(filename)
+        continue
     df.columns = [''] * len(df.columns)
     # print(df)
     data = dict()
