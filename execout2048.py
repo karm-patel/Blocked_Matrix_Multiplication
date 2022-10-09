@@ -1,8 +1,8 @@
 from glob import glob
 import os
 
-if not os.path.isdir("out2048"):
-    os.system("mkdir out2048")
+if not os.path.isdir("csv"):
+    os.system("mkdir csv")
 
 out_files = glob("out2048/*")
 for ind, file in enumerate(out_files):

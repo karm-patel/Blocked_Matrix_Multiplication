@@ -2,6 +2,10 @@ from glob import glob
 import os
 import regex as re
 
+
+if not os.path.isdir("out2048"):
+    os.system("mkdir out2048")
+
 c_files = glob("code/*.c")
 print(c_files)
 
