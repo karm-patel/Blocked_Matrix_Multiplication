@@ -1,0 +1,16 @@
+To build the binaries use the following commands
+	$ cd <path to directory containg the benchmarks and Makefile>
+	
+	// to build all binaries at once use
+	$ make
+
+	// to build a sepecific binary run the following, where id is 1,2 or 3.
+	$ make bench_<id>  
+
+	// to clean all binaries
+	$ make clean
+
+	// to clean a specific
+	$ make clean-bench<id>
+
+final binaires will be in bin folder

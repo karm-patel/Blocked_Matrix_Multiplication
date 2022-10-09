@@ -1,0 +1,13 @@
+# started on Sun Oct  9 14:41:13 2022
+
+25911245,,cycles:u,2826648,29.24,,
+93886149,,instructions:u,6822151,70.58,3.62,insn per cycle
+475323,,L1-dcache-load-misses,9666384,100.00,,
+<not supported>,,L1-dcache-store-misses,0,100.00,,
+557,,LLC-load-misses,9666384,100.00,,
+14,,LLC-store-misses,9666384,100.00,,
+278,,dTLB-load-misses,9666384,100.00,,
+<not counted>,,dTLB-store-misses,0,0.00,,
+<not counted>,,l2_rqsts.all_demand_miss:u,0,0.00,,
+169,,page-faults:u,9665718,100.00,,
+0,,context-switches:u,9665718,100.00,,

@@ -1,0 +1,22 @@
+# started on Sun Oct  9 13:09:21 2022
+
+
+ Performance counter stats for './fun.out':
+
+           163,672      cycles:u                                                    
+           100,393      instructions:u            #    0.61  insn per cycle         
+                44      page-faults:u                                               
+             2,294      L1-dcache-load-misses                                       
+               295      LLC-load-misses                                             
+                 0      LLC-store-misses                                            
+                97      dTLB-load-misses                                            
+     <not counted>      dTLB-store-misses                                             (0.00%)
+     <not counted>      l2_rqsts.all_demand_miss:u                                     (0.00%)
+                 0      context-switches:u                                          
+
+       0.002005105 seconds time elapsed
+
+       0.000000000 seconds user
+       0.002082000 seconds sys
+
+
