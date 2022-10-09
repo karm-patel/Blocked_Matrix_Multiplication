@@ -9,8 +9,7 @@ if not os.path.isdir("out2048"):
 c_files = glob("code/*.c")
 print(c_files)
 
-piles_2048 = [8,16,32,64,128]
-piles_8192 = [32,64]
+piles_2048 = [256, 512]
 # for file in c_files:    
 #     
 

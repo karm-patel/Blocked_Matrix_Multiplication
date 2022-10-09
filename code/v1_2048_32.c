@@ -8,7 +8,7 @@ int N = 2048;
 double A[2048][2048];
 double array1[2048][2048];
 double array2[2048][2048];
-int B = 128;
+int B = 512;
 
 void init(){
 
