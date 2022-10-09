@@ -5,7 +5,7 @@ import regex as re
 c_files = glob("code/*.c")
 print(c_files)
 
-piles_8192 = [32,64,128]
+piles_8192 = [16,256,512]
 # for file in c_files:    
 #     
 if not os.path.isdir("code8192"):
