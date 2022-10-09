@@ -15,7 +15,7 @@ void init(){
 	for(int i=0; i<N; i++){
 		for(int j=0; j<N; j++){
 			array1[i][j] = (rand() % 10) +1;
-            printf(" ");
+            printf("");
 		}
 	}
 	
