@@ -3,11 +3,27 @@
 #include<math.h>
 #include<time.h>
 
-int N = 128;
-double A[128][128];
-double array1[128][128];
-double array2[128][128];
-int B = 8;
+int N = 2048;
+double A[2048][2048];
+double array1[2048][2048];
+double array2[2048][2048];
+int B = 32;
+
+void init(){
+
+	for(int i=0; i<N; i++){
+		for(int j=0; j<N; j++){
+			array1[i][j] = (rand() % 10) +1;
+		}
+	}
+	
+	
+	for(int i=0; i<N; i++){
+		for(int j=0; j<N; j++){
+			array2[i][j] = (rand() % 10) + 1;
+		}
+	}
+}
 
 void multiplication(){
 for(int i=0; i<N; i=i+B)
@@ -31,23 +47,9 @@ for(int i=0; i<N; i=i+B)
 int main(){
 	
 	time_t t1; 
-    	srand (128); 
-	
-	
-	for(int i=0; i<N; i++){
-		for(int j=0; j<N; j++){
-			array1[i][j] = (rand() % 10) +1;
-		}
-	}
-	
-	
-	for(int i=0; i<N; i++){
-		for(int j=0; j<N; j++){
-			array2[i][j] = (rand() % 10) + 1;
-		}
-	}
-	
-	
+    srand (128); 
+
+	init();	
 	multiplication();
  	
  	return 0;
