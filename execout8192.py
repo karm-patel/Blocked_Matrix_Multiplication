@@ -1,6 +1,8 @@
 from glob import glob
 import os
 
+if not os.path.isdir("out8192"):
+    os.system("mkdir out8192")
 
 out_files = glob("out8192/*")
 for ind, file in enumerate(out_files):
