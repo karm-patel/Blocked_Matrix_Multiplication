@@ -1,6 +1,8 @@
 ## Perforater installation
 curl https://zyedidia.github.io/eget.sh | sh
 ./eget zyedidia/perforator
+pip3 install regex
+pip3 install pandas
 
 ## DELETE FOLLOWING DIRECTORIES
 out2048/
