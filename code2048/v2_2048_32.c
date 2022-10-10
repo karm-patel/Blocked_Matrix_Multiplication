@@ -27,9 +27,9 @@ void init(){
 }
 
 void multiplication(){
-for(int i=0; i<N; i=i+B)
+for(int j=0; j<N; j=j+B)
 	{	
-		for(int j=0; j<N; j=j+B){
+		for(int i=0; i<N; i=i+B){
  			
  			for (int k=0; k < N; k=k+B){
  				for(int ii=i; ii<i+B; ii++){
