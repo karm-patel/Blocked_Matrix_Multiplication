@@ -32,5 +32,6 @@ for pile_size in piles_8192:
         
         version = file.split("/")[-1].split("_")[0]
         print(version)
-        os.system(f"gcc -o out8192/{version}_{mat_size}_{pile_size} {file}")
+        # os.system(f"gcc -o out8192/{version}_{mat_size}_{pile_size} {file}")
+        print(file)
 
