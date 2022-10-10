@@ -2,10 +2,10 @@ from glob import glob
 import os
 import regex as re
 
-c_files = glob("code/*.c")
+c_files = glob("code2048/*.c")
 print(c_files)
 
-piles_8192 = [16,256,512]
+piles_8192 = [32,128]
 # for file in c_files:    
 #     
 if not os.path.isdir("code8192"):
@@ -31,6 +31,8 @@ for pile_size in piles_8192:
             fp.write(content)
         
         version = file.split("/")[-1].split("_")[0]
-        print(version)
-        os.system(f"gcc -o out8192/{version}_{mat_size}_{pile_size} {file}")
+        # print(version)
+        exec_file = f"code8192/{file.split('/')[-1]}"
+        print(f"out8192/{version}_{mat_size}_{pile_size}", exec_file)
+        os.system(f"gcc -o out8192/{version}_{mat_size}_{pile_size} {exec_file}")
 
