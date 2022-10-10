@@ -1,4 +1,4 @@
-//i,k,j
+//k,i,j
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
