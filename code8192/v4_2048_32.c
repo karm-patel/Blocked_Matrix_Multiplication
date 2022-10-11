@@ -5,9 +5,9 @@
 #include<time.h>
 
 int N = 8192;
-double A[8192][8192];
-double array1[8192][8192];
-double array2[8192][8192];
+int A[8192][8192];
+int array1[8192][8192];
+int array2[8192][8192];
 int B = 128;
 
 void init(){
