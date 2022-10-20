@@ -7,7 +7,15 @@ In this repo, we have analyzed 96 various versions of the blocked matrix multipl
 
 Analysis contains various performance counters including but not limited to cache-misses, TLB misses, cpu cycles, branch instructions, etc. We use perforator CLI tool for analysis.
 
-### Perforater installation 
+### Analysis Summary
+![image](https://user-images.githubusercontent.com/59387624/196910151-276b9615-5f6d-4ef3-9486-8ee5df1f5598.png)
+![image](https://user-images.githubusercontent.com/59387624/196910286-791060e7-397a-4c09-bfc9-111da1b98b02.png)
+![image](https://user-images.githubusercontent.com/59387624/196910349-919b21f1-1966-49b4-99f0-060f952f96ee.png)
+![image](https://user-images.githubusercontent.com/59387624/196910403-a131ffa7-646c-4bee-bcdf-9d8bf4c7d646.png)
+
+
+## How to use this code?
+## Perforater installation 
 ```bash
 curl https://zyedidia.github.io/eget.sh | sh ./eget zyedidia/perforator
 ```
