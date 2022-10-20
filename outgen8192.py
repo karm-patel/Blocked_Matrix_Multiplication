@@ -2,8 +2,6 @@ from glob import glob
 import os
 import regex as re
 
-c_files = glob("code8192/*.c")
-print(c_files)
 
 tiles_8192 = [4,8,16,512]
 # for file in c_files:    
@@ -11,8 +9,7 @@ tiles_8192 = [4,8,16,512]
 if not os.path.isdir("code8192"):
     os.system("mkdir code8192")
 
-if not os.path.isdir("out8192"):
-    os.system("mkdir out8192")
+    tiles_8192 = [8,16,32,64,128]
 
 mat_size = 8192
 for tile_size in tiles_8192:
