@@ -5,7 +5,7 @@ import regex as re
 c_files = glob("code8192/*.c")
 print(c_files)
 
-tiles_8192 = [8,32,128]
+tiles_8192 = [4,8,16,512]
 # for file in c_files:    
 #     
 if not os.path.isdir("code8192"):
@@ -21,7 +21,7 @@ for tile_size in tiles_8192:
             content = fp.read()
         
         content = content.replace("int N = 2048;", f"int N = {mat_size};")
-        content = content.replace("int A[2048][2048];",f"int A[{mat_size}][{mat_size}];")
+        content = content.replace("float A[2048][2048];",f"float A[{mat_size}][{mat_size}];")
         content = content.replace("int array1[2048][2048];",f"int array1[{mat_size}][{mat_size}];")
         content = content.replace("int array2[2048][2048];",f"int array2[{mat_size}][{mat_size}];")
         content = re.sub(r"int B = [0-9]*;", f"int B = {tile_size};", content)
@@ -36,5 +36,5 @@ for tile_size in tiles_8192:
         exec_file = f"code8192/{file.split('/')[-1]}"
         print(f"out8192/{version}_{mat_size}_{tile_size}", exec_file)
         print(exec_file)
-        os.system(f"gcc -g 02 -o out8192/{version}_{mat_size}_{tile_size} {exec_file}")
+        os.system(f"gcc -g -o out8192/{version}_{mat_size}_{tile_size} {exec_file}")
 

@@ -1,0 +1,19 @@
+Event,Count (multiplication)
+instructions,403885267935
+cpu-cycles,108138316548
+branch-misses,16881940
+branch-instructions,12256547778
+cache-references,1614454112
+cache-misses,417494028
+dtlb-read-accesses,138543362627
+dtlb-read-misses,223903684
+dtlb-write-misses,20307840
+dtlb-write-accesses,19618302996
+l1d-read-accesses,138941508361
+l1d-read-misses,774717239
+l1d-write-accesses,19609297544
+ll-read-accesses,272915923
+ll-read-misses,33315642
+ll-write-accesses,2558
+ll-write-misses,399
+time-elapsed,35.820892682s

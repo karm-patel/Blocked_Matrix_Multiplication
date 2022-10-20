@@ -5,16 +5,16 @@
 
 
 int N = 128;
-int A[128][128];
+float A[128][128];
 int array1[128][128];
 int array2[128][128];
 int B = 32;
 // int N = 4;
-// int A[4][4];
+// float A[4][4];
 // int array1[4][4];
 // int array2[4][4];
 
-void printArray(int a[N][N],int N){
+void printArray(float A[N][N],int N){
 	for(int i=0; i<N; i++){
 		for(int j=0; j<N; j++){
 			printf("%f ",a[i][j] );

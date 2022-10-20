@@ -5,7 +5,7 @@
 #include<time.h>
 
 int N = 4;
-int A[4][4];
+float A[4][4];
 int array1[4][4];
 int array2[4][4];
 int B = 2;
